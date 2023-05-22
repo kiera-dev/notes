@@ -1,0 +1,21 @@
+8 CISSP sec domains 
+- Security & risk management 
+    - Policy & compliance 
+    - Ex: social engineering 
+- Asset security 
+    -  storage, maintenance, retention, destruction of data 
+    - Ex: Physical attacks 
+- Security arch and eng 
+    - Optimizing data sec 
+- Communication  and network sec
+    - Managing physical networks and wireless comms 
+    - Ex: pw attack, adversarial AI 
+- Identity and Access Management (IAM)
+    - Keeping data secure by managing users & validating their identity 
+    - Ex: adversarial AI 
+- Security assessment and testing. 
+    -  Security control QA, collecting & analyzing data, conducting audits. 
+- Security operations 
+    - Investigating & implementing preventative measures
+- Software dev security 
+    - Secure coding practices / security code reviews 
