@@ -1,0 +1,54 @@
+Helpful Linux Cmds 
+
+Basic:
+
+pwd - print directory 
+cd - change directory 
+cat - prints file contents 
+cp - copy
+mv - move
+mkdir - create dir
+touch - create empty
+rm - remove 
+ls - list 
+man - open manual 
+chmod - change mode (change file permissions to be read write, for example)
+shutdown 
+sudo 
+su
+unzip - extract 
+apt / yum / pacman
+echo 
+kill 
+history 
+tail - output last 10 lines of a file 
+head - output first 10 lines of a file 
+grep - searches for a line that matches a regex 
+	grep "linux" long.txt
+wget - web get. Ex: download a python file from GitHub 
+
+
+Less Basic / less used: 
+
+alias  - define temp aliases. You can use a word instead of typing out a large ass command every time. 
+	Here you change ls to have color without having to 	type out the flag: 
+		alias ls="ls --color=auto"
+	unalias - removes the alias 
+
+htop - view/manage resources 
+ps - look at processes 
+passwd - change password 
+which - output path for programs 
+shred - super delete 
+whoami - if you forget what user you are signed into 
+wc - wordcount 
+uname -a - output OS info 
+neofetch - even better OS info 
+Find - search for files in a dir 
+	find ./ -name "long.txt" # ./long.txt 
+
+
+Shortcuts: 
+
+^name1^name2 - Re-runs the previous command and replaces. Ex: 
+	“sudo apt-get update” and then “^date^grade” 		magically becomes “sudo apt-get upgrade”
