@@ -43,10 +43,15 @@ FROM world
 WHERE  population >= 200000000;
 
 --XOR
-SELECT name, population, area FROM world
+SELECT name, population, area 
+FROM world
 WHERE (area >= 3000000 AND population <= 250000000)
-OR (area <= 3000000 AND population >= 250000000)
+OR (area <= 3000000 AND population >= 250000000);
 
+
+
+
+  
 --Leetcode 
 
 --175  
