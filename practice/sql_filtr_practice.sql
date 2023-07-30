@@ -35,3 +35,43 @@ OR department = "Sales";
 SELECT *
 FROM employees
 WHERE department != "Information Technology";
+
+
+
+--Leetcode 
+
+--175  
+SELECT firstName, lastName, city, state
+FROM Person 
+LEFT JOIN Address ON Person.personId = Address.personID;
+
+--176
+SELECT MAX(salary) AS SecondHighestSalary
+FROM Employee
+WHERE salary NOT IN (SELECT MAX(salary) FROM Employee);
+
+--177
+--mkay. I really don't like leetcode. it's hard to learn with such an overly restrictive environment. 
+CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
+BEGIN
+  RETURN (
+    SELECT DISTINCT salary
+    FROM Employee e1
+    WHERE N - 1 = (
+      SELECT COUNT(DISTINCT e2.salary)
+      FROM Employee e2
+      WHERE e2.salary > e1.salary
+    )
+  );
+END;
+
+--184 
+SELECT d.name AS Department, e.name AS Employee, e.salary AS Salary
+FROM Employee e
+JOIN Department d ON e.departmentId = d.id
+WHERE (e.departmentId, e.salary) IN (
+  SELECT departmentId, MAX(salary) AS max_salary
+  FROM Employee
+  GROUP BY departmentId
+)
+ORDER BY Department;
