@@ -37,6 +37,12 @@ FROM employees
 WHERE department != "Information Technology";
 
 
+-- Give the name and the per capita GDP for those countries with a population of at least 200 million.
+SELECT name, gdp / population
+FROM world
+WHERE  population >= 200000000;
+
+
 
 --Leetcode 
 
@@ -75,3 +81,6 @@ WHERE (e.departmentId, e.salary) IN (
   GROUP BY departmentId
 )
 ORDER BY Department;
+
+
+
