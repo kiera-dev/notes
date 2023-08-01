@@ -48,10 +48,11 @@ FROM world
 WHERE (area >= 3000000 AND population <= 250000000)
 OR (area <= 3000000 AND population >= 250000000);
 
+SELECT name, ROUND((gdp / population),-3)
+FROM world
+WHERE  gdp >= 1000000000000
 
 
-
-  
 --Leetcode 
 
 --175  
