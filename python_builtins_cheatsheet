@@ -1,0 +1,46 @@
+
+Type Conversion and Casting:
+	int(): Convert to integer.
+	float(): Convert to float.
+	str(): Convert to string.
+	list(): Convert to list.
+	tuple(): Convert to tuple.
+	dict(): Convert to dictionary.
+	set(): Convert to set.
+Data Structure Manipulation:
+	len(): Get the length of an iterable.
+	max(): Get the maximum value from an iterable.
+	min(): Get the minimum value from an iterable.
+	sum(): Get the sum of elements in an iterable.
+String Manipulation:
+	str.capitalize(): Capitalize the first character.
+	str.lower(): Convert to lowercase.
+	str.upper(): Convert to uppercase.
+	str.strip(): Remove leading and trailing whitespace.
+	str.split(): Split a string into a list of substrings.
+	str.join(): Join a list of strings into one.
+Iteration and Iterables:
+	range(): Generate a sequence of numbers.
+	enumerate(): Get index and value pairs from an iterable.
+	zip(): Pair elements from multiple iterables.
+	reversed(): Reverse an iterable.
+List Manipulation:
+	list.append(): Add an element to the end of a list.
+	list.extend(): Extend a list with another list.
+	list.pop(): Remove and return an element from a list.
+	list.index(): Find the index of an element in a list.
+Dictionary Manipulation:
+	dict.keys(): Get keys as a list.
+	dict.values(): Get values as a list.
+	dict.items(): Get key-value pairs as a list of tuples.
+	dict.get(): Get the value for a key, with a default if not found.
+Math Operations:
+	abs(): Get the absolute value.
+	round(): Round a number to a specified number of decimals.
+Functional Programming:
+	map(): Apply a function to all items in an iterable.
+	filter(): Filter elements in an iterable based on a function.
+	sorted(): Return a sorted list from an iterable.
+Input and Output:
+	input(): Get user input from the console.
+	print(): Print to the console.
